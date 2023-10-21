@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/icone GG.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 750px)" srcset="Imagens/Valak1.jpg" type="image/jpg">
+        <img src="Imagens/Valak3.jfif" alt="">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="Áudio/Maroon 5 - She Will Be Loved Vocals only (320 kbps).mp3" type="audio/mpeg">
+        <source src="Áudio/Ben E  King - Stand By Me Isolated Vocals (320 kbps).mp3" type="audio/ogg">
+        <source src="Áudio/Nelly - Just A Dream ( Accapella Version ) (320 kbps).mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="Áudio/Nelly - Just A Dream ( Accapella Version ) (320 kbps).mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h2>Inserindo vídeos hospedados localmente</h2>
+    <p>Esté vídeo está hospedado no meu próprio servidor</p>
+    <video src="Vídeos/ROSALÍA, Rauw Alejandro - BESO.mp4" width="560" controls></video>
+    <h2>Inserindo Vídios do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/06LHg3dJoLs?si=0vG_8g8WsA44L4Vh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
